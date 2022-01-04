@@ -27,7 +27,7 @@ function setTime(value) {
 }
 
 function createRandomCircle() {
-  const size  = getRandomIntInclusive(25, 50);
+  const size  = getRandomIntInclusive(10, 50);
   const {width, height} = board.getBoundingClientRect();
   const top = getRandomIntInclusive(size, height - size);
   const left = getRandomIntInclusive(size, width - size);
